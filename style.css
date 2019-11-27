@@ -1,0 +1,148 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Lato", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+.content {
+  width: 95%;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+@media  (max-width: 400px) {
+  .content {
+    width: 100%;
+  }
+
+}
+
+header, main, nav {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh;
+  background-color: rgb(208, 135, 111);
+  padding-top: 80px;
+}
+
+main {
+  height: 100vh;
+  background-color: grey; 
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+}
+
+
+nav .content {
+  height: 60px;
+  position: fixed;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.content ul {
+  list-style: none;
+  flex: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.row1 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 220px;
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+@media  only screen and (max-width: 700px) {
+  .card {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+}
+  
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+.container p {
+  color: rgba(0,0,0,0.8);
+  font-family: "Roboto";
+  margin-bottom: 60px;
+}
+
+.card-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.card-btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+
+footer {
+  background-color: black;
+  height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
