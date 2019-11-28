@@ -11,12 +11,6 @@ body {
   padding: 0 auto;
   margin: 0 auto;
 }
-@media  (max-width: 400px) {
-  .content {
-    width: 100%;
-  }
-
-}
 
 header, main, nav {
   width: 100%;
@@ -30,13 +24,13 @@ h1 {
 
 header {
   height: 100vh;
-  background-color: rgb(208, 135, 111);
   padding-top: 80px;
 }
 
 main {
   height: 100vh;
   background-color: grey; 
+}
 
 body {
   color: #272727;
@@ -46,12 +40,22 @@ body {
   letter-spacing: 0;
   padding: 1rem;
 }
+
+nav {
+  background-color:  #272727;
+  color: white;
 }
 
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #ff8a00;
+}
 
 nav .content {
   height: 60px;
-  position: fixed;
   left: 0;
   display: flex;
   justify-content: space-between;
@@ -70,13 +74,7 @@ nav ul li {
   padding: 10px;
 }
 
-
-
 .row1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -90,59 +88,72 @@ nav ul li {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 220px;
-  flex-grow: 1;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 80%;
   position: relative;
+  margin: 5px auto;
+  padding-bottom: 60px;
 }
-
-@media  only screen and (max-width: 700px) {
-  .card {
-    width: 200px;
-    display: block;
-    margin: auto;
-  }
-}
-  
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 
-.container {
-  padding: 2px 16px;
+@media only screen and (max-width: 450px){
+  .content {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
 }
 
+@media (min-width: 650px) {
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+      width: 30%;
+      margin: 5px auto;
+      justify-content: center;
+    } 
+  }
+
+.container {
+  padding: 2px 16px;
+  position: relative;
+}
 
 .container p {
   color: rgba(0,0,0,0.8);
   font-family: "Roboto";
-  margin-bottom: 60px;
 }
 
-.card-btn {
+button {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: white;
+  color: rgba(0,0,0,0.8);
+  border: solid 1px rgba(0,0,0,0.8);
+}
+.container a {
+  text-decoration: none;
 }
 
-.card-btn:hover {
+button:hover {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  transition-duration: 100ms;
+}
+
+.btn:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
-
-
-footer {
-  background-color: black;
-  height: 90px;
-}
-
-
-
-
-
-
-
-
-
-
