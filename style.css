@@ -29,6 +29,12 @@ h1 {
   padding: 0;
 }
 
+a
+{
+target-name:new;
+target-new:tab;
+}
+
 header {
   height: 100vh;
   padding-top: 80px;
