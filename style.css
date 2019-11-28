@@ -1,9 +1,16 @@
 /* CSS files add styling rules to your content */
 
-body {
+
+html, body {
   font-family: "Lato", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 0;
   width: 100%;
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
 }
 
 .content {
@@ -32,14 +39,6 @@ main {
   background-color: grey; 
 }
 
-body {
-  color: #272727;
-  font-family: 'Quicksand', serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  padding: 1rem;
-}
 
 nav {
   background-color:  #272727;
@@ -151,6 +150,7 @@ button {
 button:hover {
   background: rgba(0,0,0,0.8);
   color: white;
+  font-weight: 500;
   transition-duration: 100ms;
 }
 
