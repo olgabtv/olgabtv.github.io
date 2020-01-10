@@ -5,12 +5,11 @@ html, body {
   font-family: "Lato", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 0;
   width: 100%;
-  color: yellow;
+  color: #272727;
   font-family: 'Quicksand', serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
-  padding: 0;
 }
 
 .content {
