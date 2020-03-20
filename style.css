@@ -79,7 +79,7 @@ nav ul li {
 }
 
 .row1 {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
 
@@ -95,7 +95,7 @@ nav ul li {
   width: 80%;
   position: relative;
   margin: 5px auto;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .card:hover {
