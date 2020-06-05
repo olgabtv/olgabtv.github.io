@@ -52,7 +52,7 @@ nav a {
   color: white;
 }
 
-nav a:hover {
+a:hover {
   color: #ff8a00;
 }
 
@@ -61,7 +61,6 @@ nav .content {
   height: 60px;
   left: 0;
   display: flex;
-
   justify-content: space-between;
   padding-top: 2px;
 }
@@ -92,18 +91,11 @@ header img {
   max-height: 150px;
 }
 
-header ul li {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 #home {
   margin-bottom: 50px;
 }
 
-#NextScreen i {
-  font-size: 50px;
-  line-height: 150%;
-}
 
 main {
   height: 100vh;
@@ -203,9 +195,15 @@ header div:last-child {margin-bottom:  28px;}
       width: 30%;
       margin: 5px auto;
     } 
+
   }
 
-
+@media (min-width: 550px) {
+  #NextScreen, #BackToTop i {
+  font-size: 48px;
+  line-height: 150%;
+}
+}
 
 button {
   position: absolute;
