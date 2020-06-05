@@ -2,11 +2,11 @@
 
 
 html, body {
- /* CSS files add styling rules to your content  font-family: "Lato", "Open Sans", "Benton Sans", "Helvetica Neue", helvetica, sans-serif;*/
-  font-family: "Roboto Slab";
+  font-family: "Lato", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 0;
   width: 100%;
   color: #272727;
+  font-family: 'Quicksand', serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
@@ -21,16 +21,9 @@ html, body {
 header, main, nav {
   width: 100%;
   text-align: center;
-  line-height: 130%;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-    }
-
-h4 {
-  font-family: "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
+h1 {
   margin: 0;
   padding: 0;
 }
@@ -41,7 +34,15 @@ target-name: new;
 target-new:tab;
 }
 
+header {
+  height: 100vh;
+  padding-top: 80px;
+}
 
+main {
+  height: 100vh;
+  background-color: grey; 
+}
 
 
 nav {
@@ -57,7 +58,6 @@ nav a:hover {
   color: #ff8a00;
 }
 
-
 nav .content {
   height: 60px;
   left: 0;
@@ -66,65 +66,24 @@ nav .content {
   padding-top: 2px;
 }
 
-nav .content ul {
+.content ul {
   list-style: none;
   flex: wrap;
   display: flex;
   justify-content: space-between;
-  padding-left: 40px;
 }
 
 nav ul li {
   text-align: center;
   padding: 10px;
-
 }
 
-header {
-  height: 100vh;
-  padding-top: 80px;
-  justify-content: center;
-}
-
-header img {
-  margin-bottom: 50px;
-  margin-top: 2vh;
-  max-height: 150px;
-}
-
-header ul li {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-main {
-  height: 100vh;
-  background-color: grey; 
-}
-
-ul {
-  padding-left: 0;
-  list-style: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-header p {
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  line-height: 130%
-}
-
-header div:last-child {margin-top: 30px;}
-
-
-#row1 {
+.row1 {
   margin-top: 15px;
   margin-bottom: 30px;
-  line-height: 140%;
 }
 
-#row1 img {
+.row1 img {
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -140,7 +99,7 @@ header div:last-child {margin-top: 30px;}
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 
 @media only screen and (max-width: 450px){
@@ -153,13 +112,13 @@ header div:last-child {margin-top: 30px;}
 }
 
 @media (min-width: 650px) {
-  #row1 {
+  .row1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
   
-.card {
+  .card {
       width: 30%;
       margin: 5px auto;
       justify-content: center;
@@ -173,8 +132,7 @@ header div:last-child {margin-top: 30px;}
 
 .container p {
   color: rgba(0,0,0,0.8);
-  font-family: "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
-  margin: 0;
+  font-family: "Roboto";
 }
 
 .container a {
@@ -198,7 +156,8 @@ button {
 
 button:hover {
   background: rgba(0,0,0,0.8);
-  color: #ff8a00;
+  color: white;
   font-weight: 500;
   transition-duration: 0.2s;
 }
+
