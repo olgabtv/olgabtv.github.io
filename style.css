@@ -24,9 +24,14 @@ header, main, nav {
 }
 
 nav {
-  position: fixed;
-  top: 0;
+  z-index: 999;
+  /* background-color:  #272727;
+  color: white;*/
     }
+
+#name {
+  position: relative;
+}
 
 h4 {
   font-family: "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
@@ -41,20 +46,13 @@ target-new:tab;
 }
 
 
-
-nav {
- /* background-color:  #272727;
-  color: white;*/
-  z-index: 999;
-}
-
-
 a:hover {
   color: #ff8a00;
 }
 
 
 nav .content {
+
   height: 60px;
   left: 0;
   display: flex;
@@ -63,7 +61,7 @@ nav .content {
 }
 
 nav .content ul {
-  list-style: none;
+ list-style: none;
   flex: wrap;
   display: flex;
   justify-content: space-between;
@@ -180,7 +178,7 @@ header div:last-child {margin-bottom:  28px;}
   }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 950px) {
   #row1 {
     display: flex;
     flex-direction: row;
