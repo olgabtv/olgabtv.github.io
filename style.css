@@ -165,7 +165,8 @@ header div:last-child {margin-bottom:  28px;}
 
   }
       #home {
-  margin-bottom: 150px;
+  /*margin-bottom: 150px;*/
+  margin-top: 15px;
 }
 }
 
