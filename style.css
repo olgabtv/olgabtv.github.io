@@ -6,10 +6,13 @@ html, body {
   font-family: "Roboto Slab";
   margin: 0;
   width: 100%;
-  color: #272727;
+  color: #F7FDFF;
   font-style: normal;
   letter-spacing: 0;
+ background-color: #001C3C;
 }
+
+
 
 .content {
   width: 90%;
@@ -25,7 +28,8 @@ header, main, nav {
 
 nav {
   z-index: 999;
-  /* background-color:  #272727;
+  /* background-color:  #272727; 
+ color orange: #EDBF8E
   color: white;*/
     }
 
@@ -81,9 +85,9 @@ header {
 }
 
 header img {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-top: 2vh;
-  max-height: 150px;
+  max-height: 200px;
 }
 
 
