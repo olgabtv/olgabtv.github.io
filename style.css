@@ -123,7 +123,7 @@ header div:last-child {margin-bottom:  28px;}
 }
 
 .container p {
-  color: rgba(0,0,0,0.8);
+  color: color: #F7FDFF;
   font-family: "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -166,8 +166,6 @@ header div:last-child {margin-bottom:  28px;}
   .card {
     width: 100%;
     margin-top: 50px;
-   color: #F7FDFF;
-
   }
       #home {
   /*margin-bottom: 150px;*/
@@ -181,7 +179,6 @@ header div:last-child {margin-bottom:  28px;}
   }
   .card {
     width: 70%;
-   color: #F7FDFF;
   }
 }
 
@@ -195,7 +192,6 @@ header div:last-child {margin-bottom:  28px;}
 .card {
       width: 30%;
       margin: 5px auto;
-      color: #F7FDFF;
     } 
 
   }
