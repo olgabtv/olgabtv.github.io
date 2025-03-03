@@ -43,11 +43,13 @@ h4 {
   padding: 0;
 }
 
+i {
+ color: color: #F7FDFF;
+}
 a
 {
 target-name: new;
 target-new:tab;
-color: #F7FDFF;
 }
 
 
